@@ -9,7 +9,7 @@ public class Stopwatch {
 	public void stop() {
 		stopTime = System.currentTimeMillis();
 		StringBuffer sb = new StringBuffer();
-		sb.append(stopTime - startTime).append(" ms");
+		sb.append("\n").append(stopTime - startTime).append(" ms");
 		System.out.println(sb);
 	}
 }
